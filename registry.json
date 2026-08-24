@@ -1,0 +1,30 @@
+{
+  "format": "starnet-skill-registry/v1",
+  "name": "Alejandro StarNet Official AI Skills",
+  "skills": [
+    {
+      "name": "ModelScope Hub",
+      "description": "Official ModelScope operations skill for models, datasets, repositories, MCP services, and the ModelScope Skills Center.",
+      "sourceUrl": "https://raw.githubusercontent.com/modelscope/modelscope-skills/c45e01e9bca9ff825d00c35f99daf2335788ec2c/skills/ms-hub/SKILL.md",
+      "version": "commit-c45e01e",
+      "author": "ModelScope",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "ModelScope Studio Safe Deployment",
+      "description": "Official ModelScope workflow for deploying and safely diagnosing Gradio, Streamlit, Docker, and static Studio applications.",
+      "sourceUrl": "https://raw.githubusercontent.com/modelscope/modelscope-skills/c45e01e9bca9ff825d00c35f99daf2335788ec2c/skills/ms-studio-deploy/SKILL.md",
+      "version": "commit-c45e01e",
+      "author": "ModelScope",
+      "license": "Apache-2.0"
+    },
+    {
+      "name": "Qwen Extension and Agent Skill Builder",
+      "description": "Official Qwen Code skill for creating and validating extensions containing skills, agents, commands, hooks, and MCP servers.",
+      "sourceUrl": "https://raw.githubusercontent.com/QwenLM/qwen-code/22bb5e8b9ff815f2fbb5d6013bec27a67cb0b2ee/packages/core/src/skills/bundled/extension-creator/SKILL.md",
+      "version": "commit-22bb5e8",
+      "author": "QwenLM",
+      "license": "Apache-2.0"
+    }
+  ]
+}
